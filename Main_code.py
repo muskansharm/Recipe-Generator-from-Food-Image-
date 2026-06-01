@@ -15,7 +15,7 @@ import google.generativeai as genai
 
 
 # Set up Google Cloud credentials
-genai.configure(api_key='AIzaSyAZx24JuA9IVc-6T5nYzDVo00NhqMT-va8')
+genai.configure(api_key='')
 
 # Load pre-trained ResNet50 model
 model = tf.keras.applications.ResNet50(weights='imagenet', include_top=True)
